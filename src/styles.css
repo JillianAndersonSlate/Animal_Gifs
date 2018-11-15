@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lightcyan;
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h1 {
+  color: blue;
+  text-shadow: 2px 2px #84fab0;
+  font-size: 3em;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: darkcyan;
+}
+
+.modal-image-panel {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  margin: 0 auto;
+  display: block;
+}
+
+.modal-image-panel img {
+  flex: 1 1 auto;
+  max-width: 350px;
+  padding: 8px;
+  margin: 8px;
+  background: #ffffff;
+}
+
+.button {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  padding: 15px;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-size: 100% auto;
+  border-radius: 10px;
+  background-color: tomato;
+  );
+}
+
+.button:hover {
+  background-position: right center;
+}
+
+.animal-button {
+  cursor: pointer;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: blue;
+  font-size: 1.5em;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #84fab0 0%,
+    #8fd3f4 51%,
+    #84fab0 100%
+  );
+}
+
+.animal-button:hover {
+  background-position: right center;
+}
